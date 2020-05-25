@@ -1,0 +1,56 @@
+.task-wrapper .header {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.task-wrapper .contact-form-wrapper {
+  max-width: 1200px;
+  margin: 15px auto;
+}
+mat-form-field {
+  width: 100%;
+}
+.chat-wrapper, .table-wrapper{
+  margin-top: 10px;
+}
+.message-wrapper .messages {
+  padding: 4px 0;
+}
+.message-wrapper .messages span{
+  display: inline-block;
+  padding: 8px;
+  background: #ccc;
+}
+.message-wrapper .messages span.same {
+  border-radius: 10px 10px 10px 0;
+}
+.message-wrapper .messages span.other {
+  border-radius: 10px 10px 0 10px;
+}
+.input-wrapper {
+  margin-top: 5px;
+}
+.mat-card>:first-child.user-title-wrapper {
+  margin: -15px;
+}
+.user-title-wrapper {
+  padding: 10px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(14, 169, 204,0.5);
+}
+.message-wrapper {
+  margin-top: 30px;
+}
+span.short-name {
+  display: inline-block;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 100px;
+}
+table tr {
+  cursor: pointer;
+}
